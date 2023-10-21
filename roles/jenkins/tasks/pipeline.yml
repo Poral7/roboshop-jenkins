@@ -13,7 +13,7 @@
 
 - name: create config file
   ansible.builtin.template:
-    src: {{"TEMPLATE"}}
+    src: job.xml
     dest: /tmp/s-job.xml
 
 - name: create jenkins jobs
